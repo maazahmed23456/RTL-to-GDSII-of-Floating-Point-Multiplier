@@ -38,9 +38,9 @@ A. Y. N J and A. V R, "FPGA Implementation of a High Speed Efficient Single Prec
   <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/SIMULATION.png">
 </p>
 
-The 0 - 10 ns for normal multiplication operation
-The 10 - 50 ns for showing various exception modelled
-The 50 - 60 ns for multiplication with negative number
+- The 0 - 10 ns for normal multiplication operation
+- The 10 - 50 ns for showing various exception modelled
+- The 50 - 60 ns for multiplication with negative number
 
 
 ## Power Summary of the FP Multiplier
