@@ -66,7 +66,7 @@ It shows the FP Multiplier was synthesiszed by ustilisation of only 59 LUT and 2
 ## Future Work
 
 - Design the division , adder and subtractor modules in similar floating point operation
-- Integrate all the modules into a Floating Point ALU with opcode and clock for operation at highest frequency possiblle
+- Integrate all the modules into a Floating Point ALU with opcode and clock for operation at highest frequency possible
 - Perform the RTL to GDS flow of the FP ALU in Cadence or Synopsys EDA Tools or Openlane ASIC Flow
 - Fabricate the chip for real time testing
 
