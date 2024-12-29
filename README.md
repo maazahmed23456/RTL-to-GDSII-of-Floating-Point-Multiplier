@@ -1,4 +1,4 @@
-# Floating-Point-Multiplier
+# RTL to GDSII ASIC Flow of Floating Point Multiplier
 Complete RLT to GDSII flow of a multiplier architecture that operates upon IEEE 754 single precision floating point numbers
 
 ## A Glance at the FP Multiplier Architecture
@@ -23,6 +23,9 @@ A. Y. N J and A. V R, "FPGA Implementation of a High Speed Efficient Single Prec
  <p align="center">
   <img width="500" height="500" src="/SCHEMATIC AND WAVEFORMS/BLOCK.png">
 </p>
+
+## AMD Xilinx Vivado implementations
+The RTL level design of the multiplier was developed in AMD Xilinx Vivado and functional verification and fpga synthesis was also performed.
 
 
 ## Schematic of the FP Multiplier
@@ -85,6 +88,13 @@ The design was imported to Openlane on linux and a configuration script was deve
  <p align="center">
   <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/AREA REPORT.png">
 </p>
+
+## Utilization
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/UTILIZATION.png">
+</p>
+
 
 ## Power Report
 
