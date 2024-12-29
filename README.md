@@ -1,5 +1,5 @@
 # Floating-Point-Multiplier
-Design of a multiplier architecture that operates upon IEEE 754 single precision floating point numbers
+Complete RLT to GDSII flow of a multiplier architecture that operates upon IEEE 754 single precision floating point numbers
 
 ## A Glance at the FP Multiplier Architecture
 
@@ -58,6 +58,42 @@ The logic which is the multiplier module consume a power of 0.555 watts
 </p>
 
 It shows the FP Multiplier was synthesiszed by ustilisation of only 59 LUT and 2 DSP and 99 I/O ports which is fair utilization.
+
+## Openlane Implementaions
+The design was imported to Openlane on linux and a configuration script was developed which performed the synthesis to gds steps. Openlane is an open-source EDA tools that is used to perfrom the ASIC flow. The design was implemented by leveraging Skywater 130nm pdk.
+
+## GDS
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/GDS.png">
+</p>
+
+## Routed Design
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/ROUTING.png">
+</p>
+
+## Heatmap
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/ROUTING HEATMAP.png">
+</p>
+
+## Area Report
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/AREA REPORT.png">
+</p>
+
+## Power Report
+
+ <p align="center">
+  <img width="800" height="500" src="/SCHEMATIC AND WAVEFORMS/POWER REPORT.png">
+</p>
+
+
+
 
 ***************
 
